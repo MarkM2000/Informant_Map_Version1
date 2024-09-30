@@ -54,12 +54,12 @@ function drawMap(data) {
             const props = feature.properties
 
             // assign a string, wrapping the name of the place within two HTML bold tags
-            var popup = `<h3>${feature.properties.Informant}</h3> <h3>(${feature.properties.Project})</h3>
+            var popup = `<h3>${feature.properties.Informant} (${feature.properties.Project})</h3>
     <p>${props.Sex}</p>
     <p>${props.Ethnicity}</p>
     <p>${props.Education_level}</p>
     <p>${props.Occupation}</p>
-    <p>${props.Fieldworker}</p> <p>(${props.Year_interviewed})</p> 
+    <p>${props.Fieldworker} (${props.Year_interviewed})</p>
 `
             layer.bindPopup(popup);
         }
