@@ -16,7 +16,7 @@ var map = L.map('map', {
 });
 
 // mapbox API parameters
-const accessToken = `pk.eyJ1IjoibWFya20wMCIsImEiOiJjbTFrM2FqZGwwdWFnMmtvY2FlNDFwdWZyIn0.2Z-bz-XInRuh_d5KIW_mrQ`
+const accessToken = `pk.eyJ1IjoibWFya20wMCIsImEiOiJjbTFwOW9ycG0wMXZkMmxxMnduNWlieGJ1In0.VbAhOz1aautpLLn2twMDSQ`
 const yourName = 'markm00'
 const yourMap = 'cm187ejix00lw01pc0smkants'
 
